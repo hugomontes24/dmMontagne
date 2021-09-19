@@ -1,0 +1,101 @@
+body{
+    background: url(../img/fd-montagne-e4ecfa.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-color: #E4ECF9;
+    /* background-size: contain; */
+    font-family: Helvetica, Arial, sans-serif;
+}
+a:link, a:visited{
+    color: rgb(9, 57, 161);
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(218, 176, 26);
+}
+header{
+    text-align: center;
+    color: #e4ecfa;
+    padding-bottom: 100px;
+}
+header h1{
+    text-shadow: 3px 3px 6px #0e2958;
+}
+header a:link, header a:visited{
+    background-color: rgb(36, 61, 116);
+    color: #ecf0f7;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    box-shadow: 2px 2px 4px rgb(57, 63, 77);
+}
+header a:hover{
+    background-color: rgb(218, 176, 26);
+}
+
+/* ********************************* */
+/* ********************************* */
+
+section{
+  max-width: 600px;
+  background-color: rgba(252, 249, 249, 0.6); 
+  margin-left:auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  border-radius: 0 100px 0 0;
+  padding: 20px; 
+  /* font-family: Helvetica, Arial, sans-serif; */
+  text-align: justify;
+  box-shadow:4px 4px 8px rgb(113, 122, 139) ;
+}
+section h2{
+    background-image: url(../img/puce-h1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: rgba(3, 3, 3, 0.5);
+    padding-left: 140px;
+}
+h1,h2,h3,h4,h5{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+section figure{
+    width: 200px;
+    border-color: rgb(102,102, 102);
+    border-style: solid;
+    background-color: rgb(192, 192, 192);
+    float: right;
+    padding: 2px;
+}
+section figure img{
+    width: 100%;
+}
+section figure figcaption{
+    padding: 3px;
+    font-size: 0.6em;
+    text-transform: uppercase;
+    text-align: justify;
+}
+
+#massifs{
+    background-color: rgb(30, 144, 255);
+    color: #e4ecfa;
+}
+#massifs h2{
+    color: #e4ecfa;
+}
+#massifs figure{
+    background-color: rgb(28, 80, 191);
+    border-color: rgb(28, 80, 191);
+}
+#massifs nav+p{
+    padding-left: 40px;
+}
+section a.hautdepage:link, section a.hautdepage:visited{
+    color: rgb(218, 176, 26);
+}
+section a.hautdepage:hover{
+    color:rgb(28, 80, 191) ;
+
+}
